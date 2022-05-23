@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div class = "top0" > 
+            <div>
+                <div class = "mini_google">
+                    <b class="blue" >G</b><b class="red">o</b><b class="yellow">o</b><b class="blue">g</b><b class="green">l</b><b class="red">e</b>            
+               </div>
+            </div>
+            <div>
+                <a class ="links" href="index.html">
+                    Google search
+                </a>
+            </div> 
+        </div>
+        <div class ="red_title">
+            Advanced Search
+        </div>
+        <hr>
+        <form  action="https://google.com/search" method="GET" name="f">
+            <div class = "queries">
+                <div class = "query">
+                    <div class = "left">
+                        <b>Show pages that contain...</b>
+                    </div>
+                    <div class = "middle">
+
+                    </div>
+                    <div class = "right">
+                        <b>To do this in the search frame... </b>
+                    </div>
+                </div>
+                <div class = "query">
+                    <div class = "left">
+                        All these words:
+                    </div>
+                    <div class = "middle">
+                        <input class="search_bar" type="text" name = "as_q">
+                    </div>
+                    <div class = "right">
+                        Input important words: <code>Terrier ratonero tricolor</code>
+                    </div>
+                </div>
+                <div class = "query">
+                    <div class = "left">
+                        This word or exact phrase:
+                    </div>
+                    <div class = "middle">
+                        <input class="search_bar" type="text" name = "as_epq">
+                    </div>
+                    <div class = "right">
+                        Input the exact words in coutations: <code>"Terrier ratonero"</code>
+                    </div>
+                </div>
+                <div class = "query">
+                    <div class = "left">
+                        All these exact phrases:
+                    </div>
+                    <div class = "middle">
+                        <input class="search_bar" type="text" name = "as_oq">
+                    </div>
+                    <div class = "right">
+                        Input OR between the words you wish to search: <code>En miniatura OR estandar.</code>
+                    </div>
+                </div>
+                <div class = "query">
+                    <div class = "left">
+                        None of this words:
+                    </div>
+                    <div class = "middle">
+                        <input class="search_bar" type="text" name = "as_eq">
+                    </div>
+                    <div class = "right">
+                        Input a minus sign just in front of the words you don't wish to appear:<code>
+                            -Roedor, -"Jack Rusell"
+                        </code> 
+                    </div>
+                </div>
+                <div class = "query">
+                    <div class = "left">
+                        Numbers of:
+                    </div>
+                    <div class = "middle">
+                        <input class="search_bar" type="text" name = "as_nlo">
+                        <div class = "inner">
+                            <p >to</p>     
+                        </div>
+                        <input class="search_bar" type="text" name = "as_nhi">
+                    </div>
+                    <div class = "right">
+                        Add two points between the numbers and add a unit of measure: 
+                        <code>10..35 lb, $300..$500, 2010..2011</code>
+                    </div>
+                </div>
+            </div>
+            <input id="CIGjud" name="tbs" type="hidden" value="">
+            <div class = "adv_button">
+                <input class="search_button_adv" value="Advanced search" aria-label="Google search" name="btnK" type="submit" data-ved="0ahUKEwjD8__TwM7uAhWDmq0KHWdTCe0Q4dUDCAs">
+            </div>
+        </form>
+    </body>
+</html>
